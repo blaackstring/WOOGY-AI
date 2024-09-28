@@ -2,10 +2,10 @@
   display: inline-flex;
   flex-direction: column;
   min-height: 100vh;
-
+padding-top: 20px;
   justify-content: space-between;
   background-color: #9fa0a1;
-  padding: 25px 15px;
+ 
 }
 
 .Sidebar img{
@@ -28,7 +28,7 @@ gap: 10px;
   background-color: #E6EAF1;
   margin-top: 55px;
   color: gray;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
   
 }
@@ -81,6 +81,6 @@ button{
 }
 @media screen and (max-width:658px){
   .Sidebar {
-  font-size: 18px;
+  font-size: 15px;
   }
 }

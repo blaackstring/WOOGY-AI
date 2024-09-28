@@ -6,14 +6,12 @@
 }
 .Main{
   flex: 1;
-  min-height: 100vh;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
   background-color:#212121;
   color: white;
 }
 .navbar {
   padding: 5px 5px 0 5px;
-
   height: 100px;
   display: flex;
   align-items: center;
