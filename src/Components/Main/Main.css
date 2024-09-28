@@ -7,7 +7,7 @@
 .Main{
   flex: 1;
   min-height: 100vh;
-  padding-bottom: 15vh;
+  padding-bottom: 5vh;
   background-color:#212121;
   color: white;
 }
@@ -30,16 +30,10 @@ img{
   height: 70px;
   border-radius: 40%;
 }
-.inputs {
 
-  position: fixed;
-  bottom: 5vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
 input{
   height: 5vh;
-  width: 45vw;
+  width: 40vw;
   border: none;
   outline: none;
   min-width: 250px;
@@ -51,13 +45,7 @@ input{
  .Main .msgc{
   font-size: 15px;
   text-align: center;
-}
-form{
-  display: flex;
- 
-justify-content: center;
-align-items: center;
-}
+ }
 .Main .contents {
   overflow-y:scroll;
 margin-left: 10%;
@@ -69,6 +57,10 @@ margin-left: 10%;
 .contents::-webkit-scrollbar{
   display: none;
 
+}
+form{
+  display: flex;
+  justify-content: center;
 }
 .contents-1{
   margin: 20px;
@@ -95,4 +87,9 @@ button{width: fit-content;height:fit-content; border-radius: 50%;}
 span{
   font-size: 2vw;
   
+}
+@media screen and (max-width:658px){
+ input{
+transform: scale(0.95);
+ }
 }

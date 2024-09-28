@@ -81,6 +81,6 @@ button{
 }
 @media screen and (max-width:658px){
   .Sidebar {
-    display: none;
+  font-size: 18px;
   }
 }

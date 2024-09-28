@@ -44,12 +44,12 @@ function Main() {
     <>
     <div className='Main'>
      <div className="navbar">
-     <span><strong>ASK-I</strong></span>
+     <span><strong>WOOOOGY</strong></span>
      <img src={assets.navimg_icon} alt="" />
      </div>
      <div className="contents">
-     {maintext? <div className='contents-1'><h1>HELLO DEV,</h1>
-      <h3>Ask Me.....</h3></div>:''}
+     {maintext? <div className='contents-1'><h1>HeLLo dEv,</h1>
+      <h3>WOOGY here.....</h3></div>:''}
      <CircularIndeterminate isfalse={isfalse}  />
 
      <p className='output'  dangerouslySetInnerHTML={{ __html: output }} ></p>
@@ -60,7 +60,7 @@ function Main() {
       <button className='btn' onClick={()=>setisfalse(true)}><img src={assets.find_icon} alt="" style={{}} /></button>
       </form>
       
-      <p className='msgc'><b>ASK-I</b> may display inaccurate info, including about people, so double-check its responses.Your privacy and Gemini Apps</p>
+      <p className='msgc'><b>WOOGY-CHATVOT</b> may display inaccurate info, including about people, so double-check its responses.Your privacy and WOOGY-CHATBOT Apps powered by <b>GEMINI</b></p>
      </div>
     </div>
     </>
