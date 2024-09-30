@@ -7,7 +7,7 @@ import Geminihook from '../../app/Customhook/Geminihook'
 
 function Sidebar() {
   const { texxt,fetchData } = Geminihook();
-  const [iscollapse,setiscollapse]=useState(true)
+  const [iscollapse,setiscollapse]=useState(false)
   //recive state values from Main components
   const alltexts=useSelector(state=>state.texts)
  const dispatch= useDispatch() //to send a state
